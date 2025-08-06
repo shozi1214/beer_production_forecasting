@@ -53,3 +53,18 @@ This script contains functions to visualize beer production data, including:
 - Yearly average trend line
 
 These plots help explore trends, seasonality, and distribution patterns in the dataset.
+
+## 📄Prophet_train_and_test.py
+This script trains and evaluates a Prophet time series forecasting model on beer production data.
+
+Key features:
+
+- Splits data into training and testing based on given dates
+
+- Configurable Prophet parameters including seasonality mode, changepoint settings, and quarterly seasonality
+
+- Fits the model and predicts future values
+
+- Calculates and prints RMSE and MAE metrics for test period
+
+- Visualizes actual vs predicted values using a custom plotting function
