@@ -59,7 +59,7 @@ This script trains and evaluates a Prophet time series forecasting model on beer
 
 Key features:
 
-- Splits data into training and testing based on given dates
+- Splits data into train and test sets by date
 
 - Configurable Prophet parameters including seasonality mode, changepoint settings, and quarterly seasonality
 
@@ -68,3 +68,20 @@ Key features:
 - Calculates and prints RMSE and MAE metrics for test period
 
 - Visualizes actual vs predicted values using a custom plotting function
+
+## 📄RandomForest_train_and_test.py
+This script trains and evaluates a Random Forest regression model on beer production data.
+
+Features:
+
+- Splits data into train and test sets by date
+
+- Creates cyclical date features (month sine/cosine) and year for modeling
+
+- Supports optional hyperparameter tuning via GridSearchCV
+
+- Prints RMSE and MAE for test predictions
+
+- Visualizes actual vs predicted values with a custom plot
+
+- Optionally displays feature importance plot
