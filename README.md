@@ -24,3 +24,14 @@ This dataset contains monthly beer production figures in Austria, recorded over 
 Month: Time column in YYYY-MM format.
 
 Monthlybeerproduction: Total beer production for that month (likely in tonnes, hectoliters, or barrels — unit not explicitly provided, but consistent throughout).
+
+## 📄 PreparingDataFrame.py
+### 🔧 Functions
+
+**summarize_dataframe(df):**  Returns summary: column names, types, nulls, non-nulls, total rows.
+
+**remove_spaces_from_column_names(df):**  Removes spaces from column names.
+
+**convert_columns_to_datetime(df, columns):**  Converts column(s) to datetime format (string or list).
+
+**drop_duplicates_and_report(df):**  Drops duplicates and returns cleaned DataFrame with message.
