@@ -35,3 +35,6 @@ Monthlybeerproduction: Total beer production for that month (likely in tonnes, h
 **convert_columns_to_datetime(df, columns):**  Converts column(s) to datetime format (string or list).
 
 **drop_duplicates_and_report(df):**  Drops duplicates and returns cleaned DataFrame with message.
+
+## 📄 CleanData.py
+This script loads the original CSV file, cleans the data by calling functions from PreparingDataFrame.py, and saves the cleaned dataset as a .pkl file for efficient storage and later use.
