@@ -37,7 +37,7 @@ Monthlybeerproduction: Total beer production for that month (likely in tonnes, h
 - **drop_duplicates_and_report(df):**  Drops duplicates and returns cleaned DataFrame with message.
 
 ## 📄 CleanData.py
-This script loads the original CSV file, cleans the data by calling functions from PreparingDataFrame.py, and saves the cleaned dataset as a .pkl file for efficient storage and later use.
+This script loads the original CSV file, cleans the data by calling functions from PreparingDataFrame.py, and saves the cleaned dataset as 'df_cleaned.pkl' file for efficient storage and later use.
 
 ## 📄 EDA.py
 This script contains functions to visualize beer production data, including:
